@@ -1,0 +1,113 @@
+﻿@import url('https://fonts.googleapis.com/css?family=pacifico&display=swap'); 
+*{
+     padding:0;
+     margin:0;
+     box-sizing:border-box;
+      
+ }
+:root{
+    --main-font:'pacifico',cursive;
+}
+html{
+    font-family:sans-serif;
+    
+
+} 
+
+header{
+    height:100vh;
+    width:100%;
+    background-repeat:no-repeat;
+    background-size:cover;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    user-select:none;
+     background-image:url("../image/images5.jpg");
+} 
+
+.blur{
+   
+}
+.chk{
+    align-items:flex-start;
+}
+.back
+{
+    text-align:center;
+}
+form{
+    
+}
+.back h1 {
+    font-size:3.5rem;
+    font-family:var(--main-font);
+    color:#000;
+    margin:20px;
+}
+.back hr{
+    width:50%;
+    margin:auto;
+    padding:5px;
+    background:#000000;
+    border:none;
+}
+.back{
+    text-align:center;
+    transition:0.5s;
+}
+.back:hover{
+    -webkit-box-shadow:0px 11px 54px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow:0px 11px 54px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow:0px 11px 54px 0px rgba(0,0,0,0.75);
+}
+.back h3{
+    font-size:2rem;
+    margin:20px;
+    color:#000000;
+}
+.dropdown
+{
+    width:90%;
+    padding:1rem;
+    margin:20px 0px;
+    border:none;
+    border-bottom:2px solid #000000;
+    font-size:1.3rem;
+    background:transparent;
+    outline:none;
+}
+.dropdown ListItem
+{
+    background:#deb9b9;
+}
+.back input{
+    width:90%;
+    padding:1rem;
+    margin:20px 0px;
+    border:none;
+    border-bottom:2px solid #000000;
+    font-size:1.3rem;
+    background:transparent;
+    outline:none;
+}
+
+.back button{
+    padding:1rem 3rem;
+    font-size:1.2rem;
+    background:#deb9b9;
+    color:#000;
+    border:none;
+    border-radius:50px;
+    cursor:pointer;
+    transition:0.5s;
+    outline:none;
+    margin:20px;
+}
+.back button:hover{
+    transform:scale(1.2);
+
+}
+.blur
+{
+}
